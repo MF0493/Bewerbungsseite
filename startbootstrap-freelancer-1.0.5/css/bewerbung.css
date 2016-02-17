@@ -1,0 +1,40 @@
+.navbar {
+    background-color: black;
+}
+
+header .container {
+    background-color:#721C2B;
+	background-color: hsla(0, 100%, 50%, 0.5);
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    
+	display: none;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background: yellow;
+	background-image: url(../img/rain-drops.jpg);
+	background-size: contain;
+}
