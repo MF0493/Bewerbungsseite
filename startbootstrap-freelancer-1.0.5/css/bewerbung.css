@@ -1,10 +1,9 @@
 .navbar {
-    background-color: black;
+    background-color:#2b2b31;
 }
 
 header .container {
-    background-color:#721C2B;
-	background-color: hsla(0, 100%, 50%, 0.5);
+    background-color: hsla(240, 100%, 25%, 0.7);
 }
 
 hr.star-light:after,
@@ -13,28 +12,37 @@ hr.star-primary:after {
 	display: none;
 }
 
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
-hr.star-primary {
-    border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
-}
-
 header {
     text-align: center;
     color: #fff;
-    background: yellow;
+    background: #fff;
 	background-image: url(../img/rain-drops.jpg);
-	background-size: contain;
+	background-size: cover;
+}
+
+a:hover,
+a:focus,
+a:active{
+    outline: 0;
+    color: #2828f0 !important;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
+section.success {
+    color: #fff;
+    background: #2828f0;
 }
