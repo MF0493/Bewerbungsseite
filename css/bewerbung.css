@@ -476,6 +476,11 @@ footer .footer-below {
     color: #fff !important;
 }
 
+.alert-success {
+    background-color: #969696;
+    border-color: #2b2b31;
+    color: #ffffff;
+}
 
 /* Skills bar effects */
 
