@@ -48,6 +48,13 @@ section.success {
 }
 
 
+img-responsive {
+-webkit-transition: 4s ease-in-out;
+-moz-transition: 4s ease-in-out;
+-o-transition: 4s ease-in-out;
+}
+
+
 /* Skills bar effects */
 
 

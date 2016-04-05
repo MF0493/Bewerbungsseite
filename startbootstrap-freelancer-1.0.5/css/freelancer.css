@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    color: #2b2b31;
 }
 
 p {
@@ -17,17 +18,18 @@ p.small {
 }
 
 a,
-a:hover,
-a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: hsla(233, 100%, 11%, 0.97);
+    color: #969696;
 }
 
-a:hover,
-a:focus {
+a:hover{
   color: #969696!important;
+}
+
+a:focus {
+  color: white !important;
 }
 
 h1,
@@ -56,11 +58,11 @@ hr.star-light {
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #2b2b31;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #2b2b31;
     background-color: #fff;
 }
 
@@ -183,7 +185,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #969696;
 }
 
 @media(max-width:767px) {
@@ -213,7 +215,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: hsla(233, 100%, 11%, 0.8);
+    background: hsla(0, 0%, 0%, 0.8);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -267,7 +269,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: hsla(233, 100%, 11%, 0.97);
+    color: #969696;
     background: #fff;
 }
 
@@ -320,7 +322,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: hsla(233, 100%, 11%, 0.9);
+    color: #969696;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -333,11 +335,6 @@ footer {
 
 footer a {
     color: #fff;
-}
-
-footer a:hover,
-a:focus {
-  color: red !important;
 }
 
 footer h3 {
@@ -439,7 +436,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #2b2b31;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -449,7 +446,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #2b2b31;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -458,6 +455,17 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+
+.btn-success{
+    background-color: #2b2b31;
+    border-color: #2b2b31;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active{
+    background-color: #969696 !important;
+    border-color: #2b2b31;
 }
 
 /* Skills bar effects */
@@ -564,6 +572,7 @@ footer .footer-below {
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background-color: #969696;
 }
 
 .timeline > li > .timeline-panel:before {
