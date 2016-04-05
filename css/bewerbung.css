@@ -29,7 +29,7 @@ a:hover{
 }
 
 a:focus {
-  color: white !important;
+  color: #969696 !important;
 }
 
 h1,
@@ -39,7 +39,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fredericka the Great", "Perpetua Titling MT", serif;
+    text-shadow: 10px 8px 20px #0f0f0f;
     font-weight: 700;
 }
 
@@ -51,10 +52,12 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+    box-shadow: 10px 8px 20px #0f0f0f;
 }
 
 hr.star-light {
     border-color: #fff;
+
 }
 
 hr.star-primary {
@@ -92,7 +95,8 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fredericka the Great", "Perpetua Titling MT", serif;
+    text-shadow: 10px 8px 20px #0f0f0f;
     font-size: 2em;
     font-weight: 700;
 }
@@ -268,7 +272,7 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px black;
     color: #969696;
     background: #fff;
 }
@@ -468,6 +472,11 @@ footer .footer-below {
     border-color: #2b2b31;
 }
 
+#bs-example-navbar-collapse-1 a:focus, .navbar-brand:focus {
+    color: #fff !important;
+}
+
+
 /* Skills bar effects */
 
 
@@ -486,7 +495,7 @@ footer .footer-below {
   position: absolute;
   top: 0;
   left: 0;
-  width: 110px;
+  width: 170px;
   font-weight: bold;
   font-size: 13px;
   color: #ffffff;
